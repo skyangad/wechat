@@ -9,6 +9,19 @@
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #377551;
 	}
+	.embeddedServiceIcon svg {
+		display: inline-block;
+		box-sizing: border-box;
+		width: 2em;
+		height: 2em;
+		fill: var(--lwc-colorTextInverse,rgb(0, 0, 0));
+		}
+	.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
+	background-color: #fff;
+	border-color: var(--lwc-esColorBackgroundAlt2,# #377551   );
+}
+
+	
 </style>
 
 <style type='text/css'>
