@@ -18,7 +18,29 @@
 		}
 	.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
 	background-color: #fff !important;
-	border-color: var(--lwc-esColorBackgroundAlt2,# #377551   );
+	border-color: var(--lwc-esColorBackgroundAlt2,#377551) !important;
+}
+
+.embeddedServiceSidebarMinimizedDefaultUI {
+position: fixed;
+left: auto;
+bottom: 0;
+right: 12px;
+margin: 0;
+height: 46px;
+width: 90px;
+max-height: 100%;
+border-radius: 8px 8px 0 0;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+box-shadow: none !important;
+pointer-events: all;
+overflow: hidden;
+background-color: var(--lwc-esColorBackgroundAlt2,#fff) !important;
+border-color: var(--lwc-esColorBackgroundAlt2,#377551) !important;
+font-size: 16px;
+cursor: pointer;
 }
 
 	
