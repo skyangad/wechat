@@ -11,6 +11,114 @@
 	}
 </style>
 
+<style type='text/css'>
+    .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #fff;
+        font-family: "Salesforce Sans", sans-serif;
+        border:2px solid #377551;
+    }
+    
+  
+    
+    .message{
+     background-color: #fff;
+    color:#000;
+    font-size:14px;
+    font-weight:600;
+    border:none;
+    }
+    
+    .message a {
+    
+     color:#fff;
+     
+     text-decoration:none;
+    }
+        
+   .embeddedServiceHelpButton .uiButton .helpButtonLabel .message a {color:Black}
+        
+    
+    .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #377551;
+    }
+    @font-face {
+        font-family: 'Salesforce Sans';
+        src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
+        url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
+    }
+    
+    .embeddedServiceHelpButton .uiButton {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 2px 3px;
+    padding: 4px 6px;
+    min-width: 250px;
+    max-width: 250px;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+   /* background: #dddfe1;*/
+}
+
+
+.embeddedServiceSidebar.layout-docked .dockableContainer
+{
+width:350px;
+height:450px;
+}
+
+.embeddedServiceSidebarMinimizedDefaultUI {
+    min-width: 14em;
+    max-width: 14em;
+    width: 250px;
+}
+
+/*New Css added by Manoj*/
+
+.embeddedServiceHelpButton .embeddedServiceIcon::before {
+    font-family: "embeddedserviceiconfont";
+    font-size: 1.25em;
+    content: attr(data-icon);
+    speak: none;
+    text-rendering: auto;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+    }
+    
+    .embeddedServiceHelpButton .embeddedServiceIcon {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-left: 0px;
+    line-height: 1;
+    vertical-align: top;
+}
+
+body {
+    
+    font-size: 100%;
+   
+}
+
+button[embeddedService-chatHeader_chatHeader] {
+    background: none;
+    border: none;
+    height: 24px;
+    min-height: 24px;
+    width: 24px;
+    min-width: 24px;
+  
+}
+
+    
+</style>
+
+
+
 <!-- Start of Invitations -->
 <div class="embeddedServiceInvitation" id="snapins_invite" inert="true" aria-live="assertive" role="dialog" aria-atomic="true">
 	<div class="embeddedServiceInvitationHeader" aria-labelledby="snapins_titletext" aria-describedby="snapins_bodytext">
