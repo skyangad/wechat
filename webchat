@@ -14,10 +14,10 @@
 		box-sizing: border-box;
 		width: 2em;
 		height: 2em;
-		fill: var(--lwc-colorTextInverse,rgb(0, 0, 0));
+		fill: var(--lwc-colorTextInverse,rgb(0, 0, 0)) !important;
 		}
 	.embeddedServiceSidebarMinimizedDefaultUI.helpButton {
-	background-color: #fff;
+	background-color: #fff !important;
 	border-color: var(--lwc-esColorBackgroundAlt2,# #377551   );
 }
 
@@ -26,7 +26,7 @@
 
 <style type='text/css'>
     .embeddedServiceHelpButton .helpButton .uiButton {
-        background-color: #fff;
+        background-color: #fff !important;
         font-family: "Salesforce Sans", sans-serif;
         border:2px solid #377551;
     }
@@ -34,8 +34,8 @@
   
     
     .message{
-     background-color: #fff;
-    color:#000;
+     background-color:none !important;
+    color:#000 !important;
     font-size:14px;
     font-weight:600;
     border:none;
@@ -43,7 +43,7 @@
     
     .message a {
     
-     color:#fff;
+     color:#fff !important;
      
      text-decoration:none;
     }
