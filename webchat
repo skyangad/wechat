@@ -341,6 +341,11 @@
   .embeddedServiceHelpButton .uiButton .helpButtonLabel:hover{
   background:#fff !imporatnt;
   }
+  .embeddedServiceHelpButton .helpButton .uiButton: hover{
+background-color: #fff !important;
+font-family: "Salesforce Sans", sans-serif;
+}
+
 
 
 		
