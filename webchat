@@ -337,6 +337,11 @@
            font-family: "Arial", sans-serif;
            box-shadow: none !important;
   }
+  
+  .embeddedServiceHelpButton .uiButton .helpButtonLabel:hover{
+  background:#fff !imporatnt;
+  }
+
 
 		
 		
