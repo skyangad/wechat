@@ -333,7 +333,7 @@
             font-family: "Salesforce Sans", sans-serif;
         }
 		.embeddedServiceHelpButton .helpButton .uiButton:hover {
-           background-color: #fff !important;
+           background-color: transparent !important;
            font-family: "Arial", sans-serif;
            box-shadow: none !important;
   }
